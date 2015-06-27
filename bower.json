@@ -11,6 +11,9 @@
     "ember-resolver": "~0.1.15",
     "jquery": "^1.11.1",
     "loader.js": "ember-cli/loader.js#3.2.0",
-    "qunit": "~1.17.1"
+    "qunit": "~1.17.1",
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2",
+    "bootstrap-sass": "~3.3.5"
   }
 }
