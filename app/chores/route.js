@@ -1,6 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  model: function(params) {
+    // 'chore' is the name of the model
+    return this.store.find('chore')
+  },
   actions: {
     addNew: function() {
       var self = this;

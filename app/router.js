@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('chore');
+  this.route('chores');
   this.route('chorelists');
 });
 
