@@ -4,10 +4,9 @@
 
 {{message}}
 
-{{#if chore}}
-  {{chore.description}}
-{{/if}}
-
+{{#each chore in model}}
+  <li>{{chore.description}}</li>
+{{/each}}
 
 
 {{outlet}}

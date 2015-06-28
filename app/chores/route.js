@@ -1,9 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model: function(params) {
+  model: function() {
     // 'chore' is the name of the model
-    return this.store.find('chore')
+    return this.store.findAll('chore');
+    // return 'localhost:3000/api/chores';
   },
   actions: {
     addNew: function() {
